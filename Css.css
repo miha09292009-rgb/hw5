@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:#d9d4dc;
+}
+
+.conteiner{
+  height: 1000px;
+  width: 1000px;
+  margin: auto;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+font-size: 50px;
+margin-top: 40px;
+padding: 10px;
+}
+
+.a_one{
+  text-decoration: none;
+  color:white;
+  background-color: #53b0c6;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.a_one:hover{
+transition: 0.4s;
+padding: 15px;
+}
+
+.a_two{
+  text-decoration: none;
+  color: white;
+  background-color: #53b0c6;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.a_two:hover{
+transition: 0.4s;
+padding: 15px;
+}
+
+.a_three{
+  text-decoration: none;
+  color: white;
+ background-color: #53b0c6;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.a_three:hover{
+transition: 0.4s;
+padding: 15px;
+}
+
+.main{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-top: 100px;
+}
+.card_one{
+  background-color: rgba(0, 0, 255, 0.521);
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+}
+
+.card_one:hover{
+  transition: 0.4s;
+padding: 35px;
+}
+
+
+.card_two{
+    background-color: rgba(0, 0, 255, 0.521);
+    color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+}
+
+.card_two:hover{
+  transition: 0.4s;
+padding: 35px;
+}
+
+
+.card_three{
+    background-color: rgba(0, 0, 255, 0.521);
+    color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+}
+
+.card_three:hover{
+  transition: 0.4s;
+padding: 35px;
+}
